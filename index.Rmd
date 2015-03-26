@@ -1,0 +1,28 @@
+---
+title: ""
+output:
+  html_document:
+    theme: null
+    highlight: null
+    css: styles.css
+---
+<font face="Garamond">
+<h1><center>Welcome</h1></center>
+
+<body style="background-color:lightgrey;text-align:center">
+
+<p><font-size:100%>
+Hello, world. 
+
+Below you will find the book that we are currently reading:
+
+`r mytable <- read.csv("data/list.csv", header = TRUE, )`
+`r mybook <- mytable [1,1]`
+Currently reading: <i>`r mybook`</i> 
+<br>
+`r mydate <- mytable [1,3]`
+`r current2 <- paste("It is due on",mydate,sep=" ")`
+`r current2`
+
+</font>
+
