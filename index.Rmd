@@ -7,7 +7,7 @@ output:
     css: styles.css
 ---
 <font face="Garamond">
-<h1><center>The Jurassic Club</h1></center>
+<h1><center>The S.F. Book Club</h1></center>
 
 <body style="background-color:#E6E6E6;text-align:center">
 
