@@ -36,12 +36,18 @@ Our next meeting date is on `r mydate`.
 
 `r mydate2 <- strptime(mydate, format = "%d %B %Y")` 
 `r mydate3 <- as.Date(mydate2, tz = "PDT")`
-`r timetill <- difftime(mydate3,timenow2)`
+`r timetill <- difftime(mydate3,timenow2, units = "days")`
 `r timetill2 <- round(timetill,2)`
 
 ~
 
 (This means you have `r paste(timetill2)` days to finish it...)
+
+
+</font>
+<font-size:25% color:gray>
+Last updated: `r timenow`
+</footer>
 
 </font>
 
