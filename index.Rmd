@@ -7,7 +7,7 @@ output:
     css: styles.css
 ---
 <font face="Garamond">
-<h1><center>The S.F. Book Club</h1></center>
+<h1><center>The Book Club</h1></center>
 
 <body style="background-color:#E6E6E6;text-align:center">
 
@@ -41,12 +41,8 @@ Our next meeting date is on `r mydate`.
 
 ~
 
-(This means you have `r paste(timetill2)` days to finish it...)
-
-
-</font>
-<font-size:25% color:gray>
-Last updated: `r timenow`
+(This means you have `r paste(timetill2)` days to finish it as of
+ `r timenow`...)
 </footer>
 
 </font>
