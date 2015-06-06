@@ -45,5 +45,11 @@ Our next meeting date is on `r mydate`.
  `r timenow`...)
 </footer>
 
+
+</font>
+<font-size:25% color:gray>
+Last updated: `r timenow`
+</footer>
+
 </font>
 
